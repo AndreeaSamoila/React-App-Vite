@@ -8,22 +8,20 @@ function App() {
   return (
     <div className="App">
       <div>
-
-       <h1>Hello</h1>
-       <h3>I'm Andreea </h3>
-       <h2>Future frontend developer </h2>
-
+        <h1>Hello</h1>
+        <h2>I'm Andreea </h2>
+        <h3>Future frontend developer </h3>
+      </div>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+        Strong creative with an eye for detail.
+        I love to build responsive user-friendly sites.
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Click on my Github link to find more about my projects
       </p>
+      <strong>https://github.com/AndreeaSamoila</strong>
     </div>
   )
 }
